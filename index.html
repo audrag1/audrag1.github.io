@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>My First Webpage</title>
+   <link rel="stylesheet" type="text/css" href="stylesheets/mypage.css">
+
+   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+</head>
+
+<body> 
+	<h1>ABOUT ME</h1>
+
+<button type="submit" class="mybtn" data-target="Hobbies.html">HOBBIES</button>
+
+<script>
+
+$('.mybtn').on('click', function(event){event.preventDefault();var url = $(this).data('target');location.replace(url);});
+
+</script>
+
+
+	<p>Hello! My name is Audra. Welcome to my webpage.</p>
+
+	<p> <img alt='My Photo' src=IMG_2003.JPG> </p>
+
+    <h2><em>My Hobbies</em></h2>
+    <p>
+    <ul>
+    	<li>Dancing</li>
+    	<li>Singing</li>
+    	<li>Travelling</li>
+    	<li>Maths</li>
+    </ul>
+    <p>
+
+    <h2><em>Educational Background</em></h2>
+    <p>
+    <Table>
+     <Thread> 
+      <tr>
+        <th><b>
+      </tr>
+     </Thread>
+     <tbody>
+     	<tr>
+          <td>2013-2016, YEAR
+    </p>
+    </body>
+</html>

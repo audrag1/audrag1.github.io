@@ -18,23 +18,33 @@
   ga('send', 'pageview');
 
 </script>
-</head>
+
+<head>
+        <title>Welcome to my webpage</title>
+
+    </head>
+
 
 <body> 
-	<h1>ABOUT ME</h1>
+	<h1>Welcome to my webpage!</h1>
 
-<button type="submit" class="mybtn" data-target="Hobbies.html">HOBBIES</button>
-
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script>
 
 $('.mybtn').on('click', function(event){event.preventDefault();var url = $(this).data('target');location.replace(url);});
 
 </script>
 
+  <p>ABOUT ME</p> 
+	<p>Hello! My name is Audra. This website is a brief overview of what I have been working on this semester.</p>
 
-	<p>Hello! My name is Audra. Welcome to my webpage.</p>
 
-	<p> <img alt='My Photo' src=IMG_2003.JPG> </p>
+  <div>
+	<p> <img alt='My Photo' src=IMG_2003.JPG width="25" height="75%" </p>
+
+  </div>
+
+  <a href="hobbies.html"><button type="submit" class="mybtn" data-target="hobbies.html">HOBBIES</button></a>
 
     <h2><em>My Hobbies</em></h2>
     <p>
@@ -43,28 +53,52 @@ $('.mybtn').on('click', function(event){event.preventDefault();var url = $(this)
     	<li>Singing</li>
     	<li>Travelling</li>
     	<li>Maths</li>
+      <li>cooking</li>
     </ul>
     <p>
 
+ <a href="Educational Background.html"><button type="submit" class="mybtn" data-target="Educational Background.html">EDUCATIONAL BACKGROUND</button></a>
+      
+
     <h2><em>Educational Background</em></h2>
     <p>
-    <Table>
-     <Thread> 
-      <tr>
-        <th><b>
-      </tr>
-     </Thread>
-     <tbody>
-     	<tr>
-          <td>2013-2016, YEAR>
-
+   
+   <ul> 
+    <li> 2013-2016: University of Southampton; Bsc Economics
+    <li> 2011-2013: St Dominics College; Maths-A*, Further Maths-A, Economics-A, Chemistry-B
+    <li> 2006-2011: St Marylebone School for girls; 6 A*, 3A's, 2B's 
      </p>
 
+ <a href="Personal_Statement.html"><button type="submit" class="mybtn" data-target="Personal_Statement.html">PROJECTS</button></a>
+
   <p>
-    <h2>Projects</h2>
+    <h2><em>Projects<em></h2>
 
     <ul>
       <li>CodeFirst Fall 2015 Web Programming course</li>
+      <li>Deloitte Summer Vacation Scheme 2015</li>
+      <li>African Caribbean Society Committee 2014/2015</li>
     </p>
+
+
+<style> 
+            h1{color: purple;}
+            p{color: purple;
+            font-style: bold; 
+            font-family:  'Helvetica';
+            font-size: 16px;}
+
+        h2{ 
+           color: white;
+           background-color: black;}
+        p{color: teal;
+            font-style: italic;
+            font-family: 'Helvetica';
+            font-size: 16px;}
+
+
+
+         </style>
     </body>
 </html>
+
